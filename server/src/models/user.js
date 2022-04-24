@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('../database');
 
 //defini os Schema (os campos que iremos ter)
 const UserSchema = new mongoose.Schema({

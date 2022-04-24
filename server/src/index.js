@@ -17,6 +17,7 @@ app.get('/', (req, res)=>{
     res.send('Tudo certo!');
 }); */
 
+require('./controller/authController')(app);
 
 //ouvir a porta
 app.listen(3000);
